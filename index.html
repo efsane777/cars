@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page1" id="home">
+    <nav class='nav-bar'>
+      <img src='./cleveland-auto-show-car-logo-png-25.png' class='top-logo'>
+      <ul>
+          <li><a href=#home>Home</a></li>
+          <li><a href=#cars-model>Cars Model</a></li>
+          <li><a href=#gallery>Gallery</a></li>
+          <li><a href=#contact>Contact-Us</a></li>
+      </ul>
+    </nav>
+  <img id="productImage" src="https://ddools.imgix.net/cars/base.png?w=600&mark-align=center,middle&mark=https%3A%2F%2Fddools.imgix.net%2Fcars%2Fpaint.png%3Fw%3D600%26bri%3D-18%26con%3D26%26monochrome%3D000000" alt="my base image" />
+<!-- Colour picker -->
+<div class="colors">
+  <div class="color" style="background-color: #000000" data-hex="000000"></div>
+  <div class="color" style="background-color: #0d4671" data-hex="0d4671"></div>
+  <div class="color" style="background-color: #eeff00" data-hex="eeff00"></div>
+  <div class="color" style="background-color: #f70808" data-hex="f70808"></div>
+  <div class="color" style="background-color: #eb14aa" data-hex="eb14aa"></div>
+  <div class="color" style="background-color: #fd7e16" data-hex="fd7e16"></div>
+  <div class="color" style="background-color: #71c1fd" data-hex="71c1fd"></div>
+
+  <div class="color" style="background-color: #63803a" data-hex="63803a"></div>
+  <div class="color" style="background-color: #841210" data-hex="841210"></div>
+   <div class="color" style="background-color: #a09e9f" data-hex="none"></div>
+   <input id="customColour" class="color jscolor" onchange="update(this.jscolor)"  data-hex="" />
+</div>
+</div>
+
+<div class="container" id="cars-model">
+<h1>Cars Model</h1>
+    <div class="img">
+     <a href="https://en.wikipedia.org/wiki/Bugatti_Veyron"><img src="https://arabam-blog.mncdn.com/wp-content/uploads/2020/08/bugatti-veyron-16-4-grand-sport-vitesse-by-manuel-carrillo-iii_100529244_h-1536x940.jpg" class = "images"></a>
+     <a href="https://www.drive.com.au/showrooms/lamborghini/"><img src="https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:good,w_1200/cms/uploads/bi36meqa62rhbghgdrkh" class = "images"></a>
+     <a href="https://en.wikipedia.org/wiki/SSC_Ultimate_Aero#:~:text=The%20Ultimate%20Aero%20TT%20was,273%20mph)%20at%207200%20rpm."><img src="https://arabam-blog.mncdn.com/wp-content/uploads/2020/08/2007-ssc-ultimate-aero-tt-9_800x0w.jpg" class = "images"></a>
+     <a href="https://www.bugatti.com/models/veyron-models/veyron-164-super-sport/"><img src="https://arabam-blog.mncdn.com/wp-content/uploads/2020/08/250mph-feature-4.jpg" class = "images"></a> 
+     <a href="https://www.venomgt.com/"><img src="https://arabam-blog.mncdn.com/wp-content/uploads/2020/08/250mph-feature-5.jpg" class = "images"></a>
+     <a href="https://en.wikipedia.org/wiki/Koenigsegg_Agera"><img src="https://arabam-blog.mncdn.com/wp-content/uploads/2020/08/250mph-feature-6.jpg" class = "images"></a>
+     <a href="https://www.motortrend.com/cars/lamborghini/aventador/"><img src="https://www.arabafirsatlari.com/wp-content/webp-express/webp-images/uploads/2021/11/lamborghini-avendator93934-1536x864.jpg.webp" class = "images"></a>
+     <a href="https://iphoneislam.com/tr/2014/04/live-the-experience-of-driving-the-most-expensive-car/34664"><img src="https://iphoneislam.com/wp-content/uploads/2014/04/lykan-hypersport.jpg" class = "images"></a>
+     <a href="https://en.wikipedia.org/wiki/Alfa_Romeo_4C"><img src="http://pictures.topspeed.com/IMG/crop/201403/alfa-romeo-4c-wtcc-s-2_800x0w.jpg" class = "images"></a>
+     <a href="https://www.caranddriver.com/aston-martin/vantage"><img src="https://www.arabafirsatlari.com/wp-content/webp-express/webp-images/uploads/2021/11/aston-martin-v8-vantage.jpg.webp" class = "images"></a>
+     <a href="https://www.tesla.com/model3"><img src="http://images.hgmsites.net/med/tesla-model-3-design-prototype--reveal-event--march-2016_100551191_m.jpg" class = "images"></a>
+     <a href="https://www.jaguarusa.com/index.html"><img src="data:image/jpeg;base64,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" class = "images"></a>
+     <a href="https://cars.mclaren.com/en/super-series/720s"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Mclaren_720S_PA280973-PSD.jpg" class = "images"></a>
+     <a href="https://www.sscnorthamerica.com/"><img src="http://666kb.com/i/cudavk7uwshmfd9hn.jpg" class = "images"></a>
+     <a href="https://tr.wikipedia.org/wiki/Fiat_Egea_Cross"><img src="https://www.arabahabercisi.com/wp-content/uploads/2021/12/2021-model-arabalar-ucuzluyor.jpg" class = "images"></a>
+     <a href="https://www.ft.com/content/8089bb56-30fe-11ea-9703-eea0cae3f0de"><img src="http://prod-upp-image-read.ft.com/a4e8f394-313b-11ea-a329-0bcf87a328f2" class = "images"></a>
+     <a href="https://www.autocarindia.com/car-news/mitsubishi-previews-creta-rival-with-xfc-suv-concept-426105"><img src="https://cdni.autocarindia.com/ExtraImages/20221019021410_Mitsubishi_concept_front.jpg" class = "images"></a>
+     <a href="https://www.drive.com.au/news/sports-car-sales-boom-coming-australia/"><img src="https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:eco,w_1200/cms/uploads/qinx0kzzgjcxkuhpte6e" class = "images"></a>
+    </div>
+</div>
+
+
+
+
+<section class="container1" id="gallery">
+  <h2>Cars Gallery</h2>
+
+  <div class="pane one">
+    <div class="card"><img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200"></div>
+    <div class="card active"><img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Lamborghini/Urus/4418/Lamborghini-Urus-V8/1621927166506/front-left-side-47.jpg?impolicy=resize&imwidth=480"></div>
+    <div class="card"><img src="https://www.supercars.net/blog/wp-content/uploads/2022/09/Best-New-Sports-and-Performance-Cars-2022_Chevrolet_Corvette.jpg"></div>
+    <div class="card"><img src="https://files.porsche.com/filestore/news/international-de/none/360138/headimage3/d99d699b-5b12-11e5-8c32-0019999cd470/Porsche-Mission-E-600-hp%2C-500-kilometer-driving-range%2C-15-minutes-charging-time.jpg"></div>
+    <div class="card"><img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/story/hero_image/Taycan_Turbo_S_2019_1001x565p-%282%29_0.jpg"></div>
+  </div>
+  
+  <div class="pane four">
+    <div class="card"><img src="https://platform.cstatic-images.com/medium/in/v2/stock_photos/d2e656a2-6578-4017-b320-3e53204e27eb/876d6483-15ad-4ef8-a873-789eade7d742.png"></div>
+    <div class="card active"><img src="https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:good,w_1200/cms/uploads/bi36meqa62rhbghgdrkh"></div>
+    <div class="card"><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Lamborghini/Urus/4418/Lamborghini-Urus-V8/1621927166506/front-left-side-47.jpg?tr=h-48"></div>
+    <div class="card"><img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Bentley/Flying-Spur/7776/1645012163948/front-left-side-47.jpg?tr=h-48"></div>
+    <div class="card"><img src="https://www.bentleymotors.com/content/dam/bentley/Master/Models/Tile%20Carousel/derivative-strategy/til%20814x542%20FlyingSpur_Azure_Static_RGB.jpg/_jcr_content/renditions/original.image_file.555.368.file/til%20814x542%20FlyingSpur_Azure_Static_RGB.jpg"></div>
+  </div>
+  
+  <div class="pane two">
+    <div class="card"><img src="https://imgd-ct.aeplcdn.com/320x200/n/cw/ec/124027/urban-cruiser-hyryder-exterior-right-front-three-quarter-3.jpeg?isig=0&q=75"></div>
+    <div class="card active"><img src="https://content-images.carmax.com/qeontfmijmzv/3BFbmpyfsbMPnnTlFwAnoY/121292b2b9bbb1658dc782b0ce9815f9/544001_KMX-Article_-Ford-Mustang-Single-Car-Review_Hero-abstract_800x600_NEW.jpg?w=540&h=462"></div>
+    <div class="card"><img src="http://images.askmen.com/top_10/cars/1264795934_top-10-french-cars_1.jpg"></div>
+    <div class="card"><img src="https://assets-eu-01.kc-usercontent.com/3b3d460e-c5ae-0195-6b86-3ac7fb9d52db/cb944f13-39c9-4f9d-ba36-41b7360bfbf9/Hennessey%20Venom%20F5.jpeg?fm=jpg&auto=format"></div>
+    <div class="card"><img src="https://i.insider.com/550cbf03ecad04de2c7c008a?width=1200&format=jpeg"></div>
+  </div>
+  
+  <div class="pane three">
+    <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJTh3CAWe_d0gC7BNgi6Y-lhu0FMIXqy9hkFzgnpcvPQFOWkxDzX1rleCFC-WX6284P2I&usqp=CAU"></div>
+    <div class="card active"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz1KlTsVA6K757y0UFY9GyxZ53ZFQayWgXjp3oPkcv___tb5u1QBzVDCYhW66ecHSMdrs&usqp=CAU"></div>
+    <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb-iZkBdhyJBcQBZc9DQFb4odl2v-d5a_AzPaYYyrGLk3qcQxEDWdHLVdIGO0QArhETbs&usqp=CAU"></div>
+    <div class="card"><img src="https://images.pexels.com/photos/120049/pexels-photo-120049.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"></div>
+    <div class="card"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20c0535-041-1605715551.jpg?crop=0.719xw:0.596xh;0.236xw,0.389xh&resize=480:*"></div>
+  </div>
+  
+  <div class="pane five">
+    <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkFWDTKb01tXDBi1BooocjEv295Q2felkm1w&usqp=CAU"></div>
+    <div class="card active"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy02dR2W4KwIU6EGw6MO0hlUeq6I7aonTWNyEZRbOpj_4-Cmh2G-o6nLgEo2mM2gswNtw&usqp=CAU"></div>
+    <div class="card"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/maserati-quattroporte-trofeo-104-dd-1618329293.jpeg"></div>
+    <div class="card"><img src="https://img.autobytel.com/2019/maserati/quattroporte/2-376-oemexterior3/4frontrightfacing1308-89575.jpg"></div>
+    <div class="card"><img src="https://www.cnet.com/a/img/resize/e190492bab35354d156b54f1cb216cff78f02a25/hub/2016/08/22/d9bf60ff-9d64-4e9e-a243-58bfa9cf37c8/04-audi-a8-extended.jpg?auto=webp&width=1200"></div>
+  </div>
+
+  <div class="pane six">
+    <div class="card"><img src="https://media.caradvice.com.au/image/private/q_auto/v1607407070/rdnj0m48bsewyfwfw39x.jpg"></div>
+    <div class="card active"><img src="https://i.ytimg.com/vi/-rnH4sg3ZO0/maxresdefault.jpg"></div>
+    <div class="card"><img src="https://www.topgear.com/sites/default/files/2022/12/1%20Mercedes%20SL.jpg"></div>
+    <div class="card"><img src="https://media.ed.edmunds-media.com/mercedes-benz/sl-class/2022/oem/2022_mercedes-benz_sl-class_convertible_amg-sl-55_fq_oem_1_1280.jpg"></div>
+    <div class="card"><img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/2-mercedes_benz-sl-2018-render.jpg?itok=Mf_qDFBM"></div>
+  </div>
+
+  <div class="pane seven">
+    <div class="card"><img src="https://www.bmwgroup.com/content/dam/grpw/websites/bmwgroup_com/brands/einstiegsseite/1280x854_P90351044_highRes_the-new-bmw-8-series.jpg"></div>
+    <div class="card active"><img src="https://images.unsplash.com/photo-1568844293986-8d0400bd4745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Ym13JTIwY2Fyc3xlbnwwfHwwfHw%3D&w=1000&q=80"></div>
+    <div class="card"><img src="https://images.pexels.com/photos/5549660/pexels-photo-5549660.jpeg?cs=srgb&dl=pexels-miguel-mallari-5549660.jpg&fm=jpg"></div>
+    <div class="card"><img src="https://media.zigcdn.com/media/content/2023/Jan/cover_63bd40c697a3d_640x480.jpg"></div>
+    <div class="card"><img src="https://cars.usnews.com/static/images/Auto/izmo/i159615339/2023_bmw_3_series_angularfront.jpg"></div>
+  </div>
+
+  <div class="pane eight">
+    <div class="card"><img src="https://hips.hearstapps.com/hmg-prod/images/2023-audi-r8-gt-front-three-quarters-motion-3-1664827965.jpg?crop=0.595xw:0.668xh;0.0705xw,0.224xh&resize=640:*"></div>
+    <div class="card active"><img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220912013142_Audi_R8_Coupe_US_Version_2022_1600_08.jpg"></div>
+    <div class="card"><img src="https://turbo.azstatic.com/uploads/f460x343/2022%2F08%2F16%2F12%2F24%2F55%2Fe954a60a-451f-4840-9217-a31a52525174%2F2912_lZOonpfBOJvAD7cwiZGnRw.jpg"></div>
+    <div class="card"><img src="https://s0.rbk.ru/v6_top_pics/media/img/6/54/756431221546546.jpg"></div>
+    <div class="card"><img src="https://rg.ru/uploads/images/2022/10/04/8_9a9.jpeg"></div>
+  </div>
+  
+  <div class="pane nine">
+    <div class="card"><img src="https://www.topgear.com/sites/default/files/cars-car/image/2020/07/dsc09285.jpg"></div>
+    <div class="card active"><img src="https://cdn-1.motorsport.com/images/amp/63vxpl7Y/s1000/ferrari-vision-gran-turismo-1.jpg"></div>
+    <div class="card"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/QHMUWLV3YBBA3PYJSW4ONTD4HE.jpg"></div>
+    <div class="card"><img src="https://motor.ru/thumb/1500x0/filters:quality(75):no_upscale()/imgs/2022/02/03/12/5213411/e97640c9a27cb98989dd5c069468ddf287c12561.jpg"></div>
+    <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTAQpFoEH_wfDXgwpDbo7QcIrKraDh3IG1aA&usqp=CAU"></div>
+  </div>
+
+  <div class="pane ten">
+    <div class="card"><img src="https://avatars.mds.yandex.net/get-verba/1030388/2a00000172e11a1b680fd88fc6fb17966d2a/cattouch"></div>
+    <div class="card active"><img src="https://cdn.britannica.com/87/236087-050-0B3CA1AA/Opel-Mokka-crossover-SUV-Opel-AG.jpg"></div>
+    <div class="card"><img src="https://rg.ru/uploads/images/223/59/15/opel_astra_hybrid.jpeg"></div>
+    <div class="card"><img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/bentley-batur-front-3_4-testing.jpg?itok=-zEEIgOE"></div>
+    <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiVeSMSnpCIbim9SwuoHniuwXLWskIHsNEWQ&usqp=CAU"></div>
+  </div>
+
+
+    <input type="button" class="flipBtn" value="Prev"/>
+  <input type="button" class="flipBtn" value="Next" />
+
+</section>
+
+ <!-- Contact -->
+
+  <div class="container2" id="contact">
+    <div class="row">
+        <h1>contact us</h1>
+    </div>
+    <div class="row">
+        <h4 style="text-align:center">We'd love to hear from you!</h4>
+    </div>
+    <div class="row input-container">
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <input type="text" required />
+            <label>Name</label> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input">
+            <input type="text" required />
+            <label>Email</label> 
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="styled-input" style="float:right;">
+            <input type="text" required />
+            <label>Phone Number</label> 
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="styled-input wide">
+            <textarea required></textarea>
+            <label>Message</label>
+          </div>
+        </div>
+        <div class="col-xs-12">
+          <div class="btn-lrg submit-btn">Send Message</div>
+        </div>
+    </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
